@@ -35,10 +35,10 @@ export default function Login() {
             <div className="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden">
                 <div className="p-8">
                     <div className="text-center mb-8">
-                        <div className="w-12 h-12 bg-sky-600 rounded-xl mx-auto flex items-center justify-center text-white mb-4 shadow-lg shadow-sky-600/20">
-                            <span className="text-2xl font-bold">NovaSync</span>
+                        <div className="w-12 h-12 bg-brand-primary rounded-xl mx-auto flex items-center justify-center text-brand-secondary mb-4 shadow-lg shadow-brand-secondary/20">
+                            <span className="text-2xl font-bold">❄️</span>
                         </div>
-                        <h2 className="text-3xl font-bold text-slate-900">Welcome back</h2>
+                        <h2 className="text-3xl font-bold text-slate-900">Davis Mechanical HVAC</h2>
                         <p className="mt-2 text-slate-500">
                             Please enter your details to access your dashboard.
                         </p>
@@ -53,7 +53,7 @@ export default function Login() {
                                     type="email"
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
-                                    className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-sky-500/20 focus:border-sky-500 transition-all outline-none text-slate-900 placeholder:text-slate-400"
+                                    className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brand-secondary/20 focus:border-brand-secondary transition-all outline-none text-slate-900 placeholder:text-slate-400"
                                     placeholder="Enter your email"
                                     required
                                 />
@@ -68,7 +68,7 @@ export default function Login() {
                                     type={showPassword ? "text" : "password"}
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}
-                                    className="w-full pl-10 pr-12 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-sky-500/20 focus:border-sky-500 transition-all outline-none text-slate-900 placeholder:text-slate-400"
+                                    className="w-full pl-10 pr-12 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brand-secondary/20 focus:border-brand-secondary transition-all outline-none text-slate-900 placeholder:text-slate-400"
                                     placeholder="••••••••"
                                     required
                                 />
@@ -84,10 +84,10 @@ export default function Login() {
 
                         <div className="flex items-center justify-between text-sm">
                             <label className="flex items-center gap-2 cursor-pointer group">
-                                <input type="checkbox" className="w-4 h-4 rounded border-slate-300 text-sky-600 focus:ring-sky-500 cursor-pointer" />
+                                <input type="checkbox" className="w-4 h-4 rounded border-slate-300 text-brand-primary focus:ring-brand-secondary cursor-pointer" />
                                 <span className="text-slate-500 group-hover:text-slate-700 transition-colors">Remember me</span>
                             </label>
-                            <a href="#" className="font-medium text-sky-600 hover:text-sky-700 hover:underline transition-all">
+                            <a href="#" className="font-medium text-brand-primary hover:text-slate-900 hover:underline transition-all">
                                 Forgot password?
                             </a>
                         </div>
@@ -117,7 +117,7 @@ export default function Login() {
 
                     <p className="text-center text-sm text-slate-500 mt-8">
                         Don't have an account?{' '}
-                        <a href="#" className="font-medium text-sky-600 hover:text-sky-700 hover:underline transition-all">
+                        <a href="#" className="font-medium text-brand-primary hover:text-slate-900 hover:underline transition-all">
                             Contact Support
                         </a>
                     </p>

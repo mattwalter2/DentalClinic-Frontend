@@ -350,11 +350,8 @@ export default function Dashboard({ onNavigate }) {
             </div>
 
             {/* Hero Quick Actions */}
-            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-900 to-slate-800 text-white shadow-xl">
-                <div className="absolute top-0 right-0 p-12 opacity-5 pointer-events-none">
-                    <Activity size={300} />
-                </div>
-
+            {/* Hero Quick Actions */}
+            <div className="relative overflow-hidden rounded-2xl bg-brand-primary text-white shadow-xl">
                 <div className="relative z-10 p-8 md:p-10">
                     <h2 className="text-2xl font-bold mb-2">Quick Actions</h2>
                     <p className="text-slate-400 mb-8 max-w-lg">Instantly launch key workflows. Your AI assistant is ready to handle calls or manage your schedule.</p>

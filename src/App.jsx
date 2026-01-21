@@ -58,9 +58,9 @@ function App() {
   }
 
   // Guard: If no session, show Login
-  if (!session) {
-    return <Login />
-  }
+  // if (!session) {
+  //   return <Login />
+  // }
 
   return (
     <div className="flex h-screen bg-gray-50">
